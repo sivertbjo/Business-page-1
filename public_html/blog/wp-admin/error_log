@@ -1,0 +1,59 @@
+[22-Feb-2021 21:50:03 UTC] PHP Warning:  Declaration of Jetpack_IXR_Client::query() should be compatible with IXR_Client::query(...$args) in /home4/siverras/public_html/blog/wp-content/plugins/jetpack/class.jetpack-ixr-client.php on line 91
+[22-Feb-2021 22:04:41 UTC] PHP Warning:  Declaration of Jetpack_IXR_Client::query() should be compatible with IXR_Client::query(...$args) in /home4/siverras/public_html/blog/wp-content/plugins/jetpack/class.jetpack-ixr-client.php on line 91
+[26-Feb-2021 11:40:45 UTC] PHP Warning:  file_get_contents(/home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/composer.json): failed to open stream: No such file or directory in /home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/PluginActions.php on line 216
+[28-Feb-2021 21:16:26 UTC] PHP Warning:  file_get_contents(/home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/composer.json): failed to open stream: No such file or directory in /home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/PluginActions.php on line 216
+[01-Mar-2021 11:21:34 UTC] PHP Warning:  Creating default object from empty value in /home4/siverras/public_html/blog/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[01-Mar-2021 11:27:35 UTC] PHP Warning:  file_get_contents(/home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/composer.json): failed to open stream: No such file or directory in /home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/PluginActions.php on line 216
+[01-Mar-2021 11:27:37 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/7574062f2d3dd113abca785adf596457/analytics/dashboard?since=-43200&action=cloudflare_proxy
+    [timeout] => 30
+    [method] => GET
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [X-Auth-Email] => sivertmail@gmail.com
+            [X-Auth-Key] => 9f137bf537ae911d1b60659cbacf6848a2aaa
+        )
+
+)
+ 
+[01-Mar-2021 11:27:37 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Not Found
+    [code] => 404
+)
+ 
+[01-Mar-2021 11:27:37 UTC] [Cloudflare] ERROR: Not Found 
+[02-Mar-2021 21:51:50 UTC] PHP Fatal error:  Uncaught RuntimeException: Failed to locate plugin /home4/siverras/public_html/blog/wp-content/plugins/jetpack in /home4/siverras/public_html/blog/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-plugin-locator.php:47
+Stack trace:
+#0 /home4/siverras/public_html/blog/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-plugins-handler.php(99): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3cjetpack\Plugin_Locator->find_current_plugin()
+#1 /home4/siverras/public_html/blog/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-autoloader.php(106): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3cjetpack\Plugins_Handler->get_active_plugins(false, true)
+#2 /home4/siverras/public_html/blog/wp-includes/class-wp-hook.php(287): Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3cjetpack\Autoloader::Automattic\Jetpack\Autoloader\jpf11009ded9fc4592b6a05b61ce272b3cjetpack\{closure}('')
+#3 /home4/siverras/public_html/blog/wp-includes/class-wp-hook.php(311): WP in /home4/siverras/public_html/blog/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-plugin-locator.php on line 47
+[02-Mar-2021 21:53:18 UTC] PHP Warning:  file_get_contents(/home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/composer.json): failed to open stream: No such file or directory in /home4/siverras/public_html/blog/wp-content/plugins/cloudflare/src/WordPress/PluginActions.php on line 216
+[02-Mar-2021 21:53:20 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/7574062f2d3dd113abca785adf596457/analytics/dashboard?since=-43200&action=cloudflare_proxy
+    [timeout] => 30
+    [method] => GET
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [X-Auth-Email] => sivertmail@gmail.com
+            [X-Auth-Key] => 9f137bf537ae911d1b60659cbacf6848a2aaa
+        )
+
+)
+ 
+[02-Mar-2021 21:53:20 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Not Found
+    [code] => 404
+)
+ 
+[02-Mar-2021 21:53:20 UTC] [Cloudflare] ERROR: Not Found 
